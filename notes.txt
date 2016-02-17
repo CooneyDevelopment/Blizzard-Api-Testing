@@ -1,0 +1,42 @@
+Base URL
+api.battle.net/
+
+Add region to the beginning
+us.api.battle.net/
+eu.api.battle.net/
+kr, tw, sea are the same
+api.battlenet.com.cn/ for China
+
+use locales
+For US English, append "?locale=en_US" to the end
+
+use HTTPS
+
+use "http://media.blizzard/com/d3/icon/{type}/{size}/{icon}.png" for icons
+** use 'small' or 'large' for item sizes
+** use '21', '42', or '64' for skill sizes
+
+================================================================================
+
+append API Key to the end "?apikey=...."
+
+Diablo 3 Calls
+GET CAREER PROFILE /d3/profile/{battletag} (battletag in the format name-XXXX)
+GET HERO PROFILE /d3/profile/{battletag}/hero/{id}
+GET ITEM DATA /d3/data/item/{id}
+
+================================================================================
+
+append access token to the end "?access_token=...."
+*For Access token, must authorize with Client ID & Client Secret
+
+Diablo 3 Community Calls
+GET SEASON INDEX /data/d3/season
+GET SEASON /data/d3/season/{id}
+GET SEASON LEADERBOARD /data/d3/season/{id}/leaderboard/{leaderboard}
+
+================================================================================
+
+Page
+
+Input API KEY to utilizing the app
